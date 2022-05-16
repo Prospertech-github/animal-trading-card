@@ -1,0 +1,53 @@
+/* add your CSS here */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background: #12272a;
+}
+.card{
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 4px 4px 2px #888;
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.animal-name{
+  font-size: 36px;
+}
+img{
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+}
+.fact-container{
+  border: 3px solid #12272a;
+  padding: 10px;
+}
+.animal-fact{
+  text-transform: lowercase;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.fact-list{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.fact-list li{
+  font-size: 18px;
+  list-style: none;
+}
+.fact-title{
+  font-weight: bold;
+}
+.fact-details{
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 15px;
+}
